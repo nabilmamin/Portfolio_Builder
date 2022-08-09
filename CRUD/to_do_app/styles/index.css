@@ -46,6 +46,7 @@ body {
     border-bottom: 2px dashed black;
     padding: 2px;
     margin-bottom: 1rem;
+    height: 64px;
 }
 
 .form-input input {
@@ -124,6 +125,7 @@ ol {
     border-bottom: 2px dashed black;
     padding: 2px;
     margin-bottom: 1rem;
+    height: 64px;
 }
 .m-two-body input {
     border: none;
