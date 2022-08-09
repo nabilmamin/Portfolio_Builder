@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital@1&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="myscript.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Weekly Planner</h1>
+    </div>
+    <div class="main">
+        <div class="module-one">
+            <div class="schedule">
+                <div class="title">SCHEDULE AND EVENTS</div>
+                <div class="weekdays">
+                    <div class="form-days">
+                        <form class="form-input">
+                            <label>Monday</label>
+                            <input id="monday" type="text" placeholder="What to do today" />
+                        </form>
+                        <ul id="monday-list"></ul>
+                        <div class="clear-buttons">
+                            <button class="clear-last" id="monday-last">Clear Last</button>
+                            <button class="clear-all" id="monday-all">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="weekdays">
+                    <div class="form-days">
+                        <form class="form-input">
+                            <label>Tuesday</label>
+                            <input id="tuesday" type="text" placeholder="What to do today" />
+                        </form>
+                        <ul id="tuesday-list"></ul>
+                        <div class="clear-buttons">
+                            <button class="clear-last" id="tuesday-last">Clear Last</button>
+                            <button class="clear-all" id="tuesday-all">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="weekdays">
+                    <div class="form-days">
+                        <form class="form-input">
+                            <label>Wednesday</label>
+                            <input id="wednesday" type="text" placeholder="What to do today" />
+                        </form>
+                        <ul id="wednesday-list"></ul>
+                        <div class="clear-buttons">
+                            <button class="clear-last" id="wednesday-last">Clear Last</button>
+                            <button class="clear-all" id="wednesday-all">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="weekdays">
+                    <div class="form-days">
+                        <form class="form-input">
+                            <label>Thursday</label>
+                            <input id="thursday" type="text" placeholder="What to do today" />
+                        </form>
+                        <ul id="thursday-list"></ul>
+                        <div class="clear-buttons">
+                            <button class="clear-last" id="thursday-last">Clear Last</button>
+                            <button class="clear-all" id="thursday-all">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="weekdays">
+                    <div class="form-days">
+                        <form class="form-input">
+                            <label>Friday</label>
+                            <input id="friday" type="text" placeholder="What to do today" />
+                        </form>
+                        <ul id="friday-list"></ul>
+                        <div class="clear-buttons">
+                            <button class="clear-last" id="friday-last">Clear Last</button>
+                            <button class="clear-all" id="friday-all">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="module-two">
+            <div class="m-two-block">
+                <div class="title">TO DO LIST</div>
+                <div class="m-two-body">
+                    <form>
+                        <input id="todo" type="text" placeholder="New Item" />
+                    </form>
+                    <ol id="todo-list"></ol>
+                    <div class="clear-buttons">
+                        <button class="clear-last" id="todo-last">Clear Last</button>
+                        <button class="clear-all" id="todo-all">Clear All</button>
+                    </div>
+                </div>
+            </div>
+            <div class="m-two-block">
+                <div class="title">GRATEFUL</div>
+                <div class="m-two-body">
+                    <form>
+                        <input id="grateful" type="text" placeholder="New Item" />
+                    </form>
+                    <ol id="grateful-list"></ol>
+                    <div class="clear-buttons">
+                        <button class="clear-last" id="grateful-last">Clear Last</button>
+                        <button class="clear-all" id="grateful-all">Clear All</button>
+                    </div>
+                </div>
+            </div>
+            <div class="m-two-block">
+                <div class="title">NOTES</div>
+                <div class="m-two-body">
+                    <form>
+                        <input id="notes" type="text" placeholder="New Item" />
+                    </form>
+                    <ul id="notes-list"></ul>
+                    <div class="clear-buttons">
+                        <button class="clear-last" id="notes-last">Clear Last</button>
+                        <button class="clear-all" id="notes-all">Clear All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

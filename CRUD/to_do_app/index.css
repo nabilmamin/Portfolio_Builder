@@ -1,0 +1,160 @@
+:root {
+    --bg-color: #F2EADF;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.main {
+    display: flex;
+    margin: 0;
+    padding: .5rem;
+    gap: 1rem;
+}
+
+.header h1 { 
+    font-family: 'Tiro Gurmukhi';
+    font-size: 4rem;
+    text-align: center;
+}
+.module-one {
+    flex: 1;
+}
+
+
+.title {
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.form-days {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    padding: 2px;
+}
+
+.form-input {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    justify-content: center;
+    border-bottom: 2px dashed black;
+    padding: 2px;
+    margin-bottom: 1rem;
+}
+
+.form-input input {
+   border: none;
+   outline: none;
+   box-shadow: none;
+   -webkit-box-shadow: none;
+}
+
+.form-input input:hover {
+    border: none;
+    outline: none;
+    box-shadow: none;
+   -webkit-box-shadow: none;
+}
+
+.form-input input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+   -webkit-box-shadow: none;
+}
+
+.form-days ul li {
+    letter-spacing: 0.1ch;
+    margin-bottom: .5rem;
+    border-left: 1px solid steelblue;
+    padding: 0 1rem;
+
+}
+
+.form-header input {
+    width: 300px;
+}
+
+ul {
+    min-height: 30px;
+    width: 100%;
+    list-style: none;
+}
+
+ol {
+    min-height: 30px;
+    width: 100%;
+}
+
+.clear-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.module-two {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.m-two-block {
+    width: 100%;
+    height: 100%;
+}
+
+.m-two-body {
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    padding: 2px;
+}
+.m-two-body form {
+    border-bottom: 2px dashed black;
+    padding: 2px;
+    margin-bottom: 1rem;
+}
+.m-two-body input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+ }
+ 
+ .m-two-body input:hover {
+     border: none;
+     outline: none;
+     box-shadow: none;
+    -webkit-box-shadow: none;
+ }
+ 
+ .m-two-body input:focus {
+     border: none;
+     outline: none;
+     box-shadow: none;
+    -webkit-box-shadow: none;
+ }
+
+#notes-list {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 510px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
